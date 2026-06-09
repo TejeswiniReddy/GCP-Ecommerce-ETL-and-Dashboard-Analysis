@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# dbt
+dbt_transforms/target/
+dbt_transforms/dbt_packages/
+dbt_transforms/logs/
+.dbt/
+
+# Data files (use GCS instead)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.json
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+
+# GCP credentials (NEVER commit these)
+*.json
+service-account*.json
+keyfile.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Test artifacts
+.pytest_cache/
+coverage.xml
+htmlcov/

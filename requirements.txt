@@ -1,0 +1,24 @@
+# Core ETL
+google-cloud-bigquery>=3.11.0
+google-cloud-storage>=2.10.0
+
+# dbt
+dbt-bigquery>=1.7.0
+dbt-core>=1.7.0
+
+# Data generation
+numpy>=1.24.0
+faker>=20.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Linting
+ruff>=0.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+setuptools>=65.0.0
+wheel>=0.37.0
